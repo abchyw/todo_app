@@ -1,7 +1,7 @@
 import TodoList from './TodoList';
 import { connect } from 'react-redux';
-import { addTodo, TodoActions } from '../store/todo/actions'
-import { RootState} from '../store';
+import { addTodo, TodoActions } from '../../store/todo/actions'
+import { RootState} from '../../store';
 import { Dispatch } from 'redux';
 
 // this function will be called when the state changes
